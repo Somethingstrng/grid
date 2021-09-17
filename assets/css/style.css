@@ -62,16 +62,26 @@ align-items: ;
     display: grid;
     grid: 100px 1fr 100px / 1fr 4fr 1fr;
     grid-template-areas: "header header header"
-    "menubar content sidebar"
+    "menuBar content sideBar"
     "footer footer footer";
 }
 .header {
+    background-color: burlywood;
+    grid-area: header;
 }
 .content {
+    background-color: cadetblue;
+    grid-area: content;
 }
 .menuBar {
+    background-color: cornflowerblue;
+    grid-area: menuBar;
 }
 .sideBar {
+    background-color: darkgoldenrod;
+    grid-area: sideBar;
 }
 .footer {
+    background-color: hotpink;
+    grid-area: footer;
 }
